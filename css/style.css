@@ -725,20 +725,20 @@ body.dark-theme {
   margin-bottom: 5rem;
 }
 
-.swiper-client-msg {
+.swiper-team-msg {
   padding: 2rem 2rem;
   /* text-align: left; */
   box-shadow: var(--shadpw);
   position: relative;
 }
 
-.swiper-client-msg p {
+.swiper-team-msg p {
   color: black;
   font-size: 15px;
   grid: 2rem;
 }
 
-.swiper-client-msg::before {
+.swiper-team-msg::before {
   content: "";
   position: absolute;
   bottom: -10rem;
@@ -751,7 +751,7 @@ body.dark-theme {
   border-top-color: var(--third);
 }
 
-.swiper-client-msg p::before {
+.swiper-team-msg p::before {
   content: "\f10d";
   display: inline-block;
   position: absolute;
@@ -763,7 +763,7 @@ body.dark-theme {
   color: black;
 }
 
-.swiper-client-msg p::after {
+.swiper-team-msg p::after {
   /* display: inline-block */
   content: "\f10e";
   position: absolute;
@@ -783,7 +783,7 @@ body.dark-theme {
   object-fit: cover;
 }
 
-.swiper-client-data {
+.swiper-team-data {
   align-items: center;
   justify-items: start;
   justify-content: start;
@@ -792,14 +792,14 @@ body.dark-theme {
   font-size: 15px;
 }
 
-.swiper-client-data img {
+.swiper-team-data img {
   max-width: 5rem;
   height: 5rem;
   border-radius: 50%;
   border: 2px solid #ced3ff;
 }
 
-.swiper-client-data p:first-child {
+.swiper-team-data p:first-child {
   font-weight: bold;
   color: var(--heading);
 }
